@@ -11,7 +11,7 @@ Built with:
 
 ### Features
 - **Experiments CRUD**: Create/view/update/delete with name, optional desc, attack type (CW/PGD/AdvReverb), and selectable model (from `models/` dir).
-- **Audios CRUD**: Create/view/update/delete with name, optional desc, local WAV path, model selection, auto-transcription via Vosk (resamples formats for compatibility).
+- **Audios CRUD**: Create/view/update/delete with name, optional desc, local WAV path, selectable model (from `models/` dir), auto-transcription via Vosk (resamples formats for compatibility).
   - Optional mapping to experiment ID (validated; list shown on screens).
 - **View enhancements**: Audios show linked exp ID; Experiments show associated audio count/IDs.
 - **NUKE option**: Clear all DB data (with confirm).
