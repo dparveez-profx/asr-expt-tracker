@@ -43,6 +43,7 @@ experiments.db
 # Audio and model files (large/binary, versioned externally)
 *.wav
 models/
+expts/
 
 # OS files
 .DS_Store
